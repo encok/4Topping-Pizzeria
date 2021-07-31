@@ -202,6 +202,41 @@ header .navbar a:hover{
 .about-us .box-container .box:hover .content{
     transform: translate(100%);
 } 
+.popular .box-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+
+}
+.popular .box-container .box{
+    padding: 2rem;
+    background: #fff;
+    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, 0.1);
+    border:.1rem solid rgba(0, 0, 0, 0.1);
+    border-radius: .5rem;
+    text-align: center;
+    flex: 1 1 30rem;
+}
+.popular .box-container . img{
+    height: 25rem;
+    object-fit: cover;
+    width: 100%;
+    border-radius: .5rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
