@@ -249,6 +249,8 @@
 
 <!-- A form for the pizza size -->
 <section class="order" id="order">
+    <h1 class="heading"> Order<span>  Pizza  here</span></h1>
+<div class="box-container">
 <div class="form-group">
     <div id="size">
         <label for="pizzaSize">Size</label>
@@ -259,10 +261,10 @@
             <option label="Small -ksh 1000" value="1000"></option>
         </select>
     </div>
-</div>
+
 <!-- A form for the pizza crust -->
 
-<div class="form-group">
+
     <div id="crust">
         <label for="pizzaCrust">Crust</label>
         <select class="options" id="pizzaCrust">
@@ -274,10 +276,10 @@
             <option label="Stuffed crust -ksh 400" value="400"></option>
         </select>
     </div>
-</div>
+
 <!-- A form for the pizza topping -->
 
-<div class=" form-group">
+
     <div id="toppings">
         <label for="pizzaTopping">Meat</label>
         <select class="options" id="pizzaTopping">
@@ -287,7 +289,7 @@
             <option label="Sausages -ksh.100" value="100"></option>
             <option label="Chicken -ksh.100" value="100"></option>
         </select>
-    </div>
+   
 
 
     <div id="toppings">
@@ -312,15 +314,15 @@
                 <option label="Provolone -ksh.60" value="60"></option>
             </select>
         </div>
-    </div>
+    
 <!-- A form for the number of pizza ordered -->
-<div class="form-group">
+
     <div id="number">
         <label for="quantity">Quantity</label>
         <input class="form-control" type="number" name="pizza" id="quantity" placeholder="0"
             max="" min="0">
     </div>
-</div>
+
 </div>
 <br>
 <!-- A submit button to confirm the order -->
@@ -328,9 +330,11 @@
 onclick="totalAmount();"><strong>Confirm order</strong><img
     </button>
 
-</div>
-</div>
+  </div>
+ </div>
 
+ </div>
+</div>
 </div>
 </section>
 <!-- order section ends -->

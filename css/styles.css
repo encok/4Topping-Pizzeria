@@ -281,7 +281,7 @@ header .navbar a:hover{
     color: #eee;
     padding: 1rem 0;
 }
-.order{
+/* .order{
     padding-top: 100px;
     height: 550px;
     margin-left: 5rem;
@@ -289,8 +289,25 @@ header .navbar a:hover{
     margin-bottom: 30rem;
     font-size: 2.5rem;
     
+} */
+.order .box-container{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+
 }
-.order #pizzaTopping {
+.order .box-container .form-group{
+    padding: 2rem;
+    background: #fff;
+    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, 0.1);
+    border:.1rem solid rgba(0, 0, 0, 0.1);
+    border-radius: .5rem;
+    text-align: center;
+    flex: 1 1 30rem;
+    position: relative;
+}
+/* .order #pizzaTopping {
     display: flex;
     align-items: column;
 }
@@ -328,9 +345,10 @@ header .navbar a:hover{
     margin-left: 55%;
     background-color: green;
     border-radius: 12px;
-    font-size: 30px;
+    font-size: 30px; 
+}*/
 
-}
+
 .footer{
     background: #000;
     text-align: center;
