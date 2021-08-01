@@ -306,47 +306,21 @@ header .navbar a:hover{
     text-align: center;
     flex: 1 1 30rem;
     position: relative;
+    justify-content: space-around;
 }
-/* .order #pizzaTopping {
-    display: flex;
-    align-items: column;
+.order .box-container .form-group label{
+ font-size: 30px;
+ margin: 10px;
 }
-.order #pizzaTopping  option{
+.order .box-container .form-group .options{
+    height: 80px;
+    width: 30%;
+    color: black;
+    margin: 20px;
     font-size: 2.0rem;
 }
 
-.order #pizzaSize {
-    display: flex;
-    align-items: column;
-    width: 500px;
-    height: 50px;
-}
-.order #pizzaSize option{
-    font-size: 2.0rem;
-}
-.order #crust{
-    display: flex;
-    align-items: column;
-    width: 50rem;
-    height: 50px; 
-    margin-top: 20px; 
-} 
-.order #crust option{
-    font-size: 2.0rem;
-}
-.order #toppings option{
-    display: flex;
-    align-items: column;
-    width: 50rem;
-    height: 50px; 
-    margin-top: 20px;  
-}
-#btn {
-    margin-left: 55%;
-    background-color: green;
-    border-radius: 12px;
-    font-size: 30px; 
-}*/
+
 
 
 .footer{
