@@ -294,7 +294,7 @@ header .navbar a:hover{
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    gap: 1.5rem;
+    gap: .5rem;
 
 }
 .order .box-container .form-group{
@@ -303,24 +303,42 @@ header .navbar a:hover{
     box-shadow: 0 .5rem 1rem rgba(0, 0, 0, 0.1);
     border:.1rem solid rgba(0, 0, 0, 0.1);
     border-radius: .5rem;
-    text-align: center;
+    text-align: left;
     flex: 1 1 30rem;
     position: relative;
     justify-content: space-around;
+    
 }
 .order .box-container .form-group label{
  font-size: 30px;
  margin: 10px;
 }
 .order .box-container .form-group .options{
+    padding: 8px 12px;
     height: 80px;
     width: 30%;
     color: black;
     margin: 20px;
     font-size: 2.0rem;
+    border: 1px solid #dddddd;
+    background-color: #eeeeee;
+}
+.order .box-container .form-group .options:focus,
+.order .box-container .form-group .options:hover{
+    outline: none;
+    border: 1px solid #bbbbbb;
 }
 
-
+#number input{
+    height: 80px;
+    width: 30%;  
+    font-size: 2.0rem;
+    margin-left: 20px;
+    padding: 8px 12px;
+    background-color: #eeeeee;
+    color: black;
+    
+}
 
 
 .footer{
