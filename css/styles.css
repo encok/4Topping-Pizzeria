@@ -281,53 +281,55 @@ header .navbar a:hover{
     color: #eee;
     padding: 1rem 0;
 }
-.order .row{
-    padding: 2rem;
-    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, 0.1);
-    background: #fff;
+.order{
+    padding-top: 100px;
+    height: 550px;
+    margin-left: 5rem;
+    background: chartreuse;
+    margin-bottom: 30rem;
+    font-size: 2.5rem;
+    
+}
+.order #pizzaTopping {
     display: flex;
-    flex-wrap:wrap ;
-    gap: 1.5rem;
-    border-radius: .5rem;
+    align-items: column;
+}
+.order #pizzaTopping  option{
+    font-size: 2.0rem;
+}
+
+.order #pizzaSize {
+    display: flex;
+    align-items: column;
+    width: 500px;
+    height: 50px;
+}
+.order #pizzaSize option{
+    font-size: 2.0rem;
+}
+.order #crust{
+    display: flex;
+    align-items: column;
+    width: 50rem;
+    height: 50px; 
+    margin-top: 20px; 
 } 
-.order .row image{
-    flex: 1 1 30rem;
+.order #crust option{
+    font-size: 2.0rem;
 }
-.order .row .image img{
-height: 100%;
-width: 100%;
-object-fit: cover;
-border-radius: .5rem;
+.order #toppings option{
+    display: flex;
+    align-items: column;
+    width: 50rem;
+    height: 50px; 
+    margin-top: 20px;  
 }
-.order .row form{
-    flex: 1 1 50rem;
-    padding: 1rem;
-}
-.order .row form .inputBox{
-  display: flex;
-   justify-content: space-between;  
-   flex-wrap: wrap;
-}
-.order .row form .inputBox input, .order .row form textarea{
-    padding: 1rem;
-    margin: 1rem 0;
-    font-size: 1.7rem;
-    color: #333;
-    text-transform: none;
-    border: .1rem solid rgba(0, 0, 0, .3);
-    border-radius: .5rem;
-    width: 49%;
-}
-.order .row form textarea{
-    width: 100%;
-    resize: none;
-    height: 15rem;
-}
-.order .row form .btn{
-  background: none;  
-}
-.order .row form .btn:hover{
-    background: var(--red);
+#btn {
+    margin-left: 55%;
+    background-color: green;
+    border-radius: 12px;
+    font-size: 30px;
+
 }
 .footer{
     background: #000;
