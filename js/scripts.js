@@ -72,12 +72,10 @@ function totalAmount() {
     getQuantity("") +
     " pizza," + 
     "" +
-    " amounting to ksh. " +
-    totals +
-    "" +
-    " Thanks for your order welcome again."
+    " amounting to ksh. " +totals +" " +" Thanks for your order welcome again."
   );
 
+  
   
   var location = prompt("If you want your pizza to be delivered to you please enter your location and if not cancel.");
   if (location !== "") {

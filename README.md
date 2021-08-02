@@ -3,17 +3,17 @@
 ## Author
 Enock Kipronoh
 ## Project Description
-This is a website for Delani music studio. It is here where one land on our page as Delani studio. One will be able to see our services, about us and what we do generally.
+This is a website for 4Topping-Pizzeria. It is here where one land on our page as 4Topping-Pizzeria Pizza Restaurant. One will be able to see our specialty and our general food.
 The main languages used for the project are Html, css and javascript(jQuery).
 ### screenshots for the sections
-<img src="images/scrn4.png">
-<img src="images/scrn3.png">
-<img src="images/scrn2.png">
-<img src="images/scrn1.png">
-
+<img src="images/1.png">
+<img src="images/2.png">
+<img src="images/3.png">
+<img src="images/4.png">
+<img src="images/5.png">
 
 ## Project setup instructions
-Delani-Studio uses VScode, Atom , notepad++ and sublime text3 editors. This therefore implies that one is needed to have either of the editors installed in their machines/computers so as to be able to run the program.
+4Topping-Pizzeria uses VScode, Atom , notepad++ and sublime text3 editors. This therefore implies that one is needed to have either of the editors installed in their machines/computers so as to be able to run the program.
 All interested people are advised to create a branch on gitHub and clone this project and make any necessary improvements. On my trial branch, you shall merge the two branches to have your improvements reflected. I will be so grateful.
 ## Live Site on GitHub
 https://encok.github.io/Delani-studio/
@@ -41,4 +41,4 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 ## Copyright 
-Delani-Studio website project uses MIT license which means anyone is free to clone the project and go and improve it.
+4Topping-Pizzeria website project uses MIT license which means anyone is free to clone the project and go and improve it.
