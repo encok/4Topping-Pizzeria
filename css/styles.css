@@ -303,7 +303,7 @@ header .navbar a:hover{
     box-shadow: 0 .5rem 1rem rgba(0, 0, 0, 0.1);
     border:.1rem solid rgba(0, 0, 0, 0.1);
     border-radius: .5rem;
-    text-align: left;
+    text-align: center;
     flex: 1 1 30rem;
     position: relative;
     justify-content: space-around;
@@ -390,16 +390,7 @@ z-index: 1000;
     top: -120%;
 }
 
-#orderingpizza {
-    display: none;
-}
-.order {
-    cursor: pointer;
-    color: #0088cc;
-}
-.order:hover{
-    text-decoration: underline;
-}
+
 
 
 

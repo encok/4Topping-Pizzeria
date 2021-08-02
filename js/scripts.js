@@ -32,15 +32,10 @@ window.onscroll = () =>{
 
  window.onload = fadeOut(); 
 
-
-
-
-
-
-
 // user interface logic
 
 function getSize() {
+  
   var size = document.getElementById("pizzaSize").value;
   return parseInt(size);
 }
@@ -50,10 +45,14 @@ function getCrust() {
   return parseInt(crust);
 }
 
-function getTopping() {
-  var topping = document.getElementById("pizzaTopping").value;
+function getMeat() {
+  var topping = document.getElementById("pizzaMeat").value;
   return parseInt(topping);
 }
+function getVeggie() {
+    var topping = document.getElementById("pizzaVeggie").value;
+    return parseInt(topping);
+  }
 
 function getCheese() {
   var cheese = document.getElementById("pizzaCheese").value;
@@ -67,7 +66,7 @@ function getQuantity() {
 
 
 function totalAmount() {
-  var totals = (getSize() + getCrust() + getTopping() + getCheese()) * getQuantity();
+  var totals = (getSize() + getCrust() + getMeat()+ getVeggie() + getCheese()) * getQuantity();
   alert(
     "You have Ordered " +
     getQuantity("") +
@@ -82,6 +81,6 @@ function totalAmount() {
   
   var location = prompt("If you want your pizza to be delivered to you please enter your location and if not cancel.");
   if (location !== "") {
-    alert("You order will be delivered shortly.Delivery fee is 100/= and incase you didn,t want it delivered please come for your order.");
+    alert("You order will be delivered shortly.Delivery fee is 100/=.");
   }
 }
