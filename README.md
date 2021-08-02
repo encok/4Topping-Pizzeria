@@ -16,7 +16,7 @@ The main languages used for the project are Html, css and javascript(jQuery).
 4Topping-Pizzeria uses VScode, Atom , notepad++ and sublime text3 editors. This therefore implies that one is needed to have either of the editors installed in their machines/computers so as to be able to run the program.
 All interested people are advised to create a branch on gitHub and clone this project and make any necessary improvements. On my trial branch, you shall merge the two branches to have your improvements reflected. I will be so grateful.
 ## Live Site on GitHub
-https://encok.github.io/Delani-studio/
+https://encok.github.io/4Topping-Pizzeria/
 ## Licence
 MIT License
 https://opensource.org/licenses/MIT
