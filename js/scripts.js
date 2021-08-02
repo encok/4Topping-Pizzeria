@@ -1,3 +1,4 @@
+// Business logic
 let menu = document.querySelector('#menu-bar');
 let navbar  = document.querySelector('.navbar');
 
@@ -35,12 +36,10 @@ window.onscroll = () =>{
 
 
 
-//  onsubmission
 
 
-// Business logic
-console.log('HI')
-// form submission function
+// user interface logic
+
 function getSize() {
   var size = document.getElementById("pizzaSize").value;
   return parseInt(size);
@@ -66,7 +65,7 @@ function getQuantity() {
   return parseInt(number);
 }
 
-/* function to calculate the total amount */
+
 function totalAmount() {
   var totals = (getSize() + getCrust() + getTopping() + getCheese()) * getQuantity();
   alert(
@@ -80,7 +79,7 @@ function totalAmount() {
     " Thanks for your order welcome again."
   );
 
-  // variable to get the location of the customer
+  
   var location = prompt("If you want your pizza to be delivered to you please enter your location and if not cancel.");
   if (location !== "") {
     alert("You order will be delivered shortly.Delivery fee is 100/= and incase you didn,t want it delivered please come for your order.");

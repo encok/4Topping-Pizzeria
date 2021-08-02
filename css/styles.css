@@ -390,6 +390,17 @@ z-index: 1000;
     top: -120%;
 }
 
+#orderingpizza {
+    display: none;
+}
+.order {
+    cursor: pointer;
+    color: #0088cc;
+}
+.order:hover{
+    text-decoration: underline;
+}
+
 
 
 
